@@ -10609,4 +10609,7 @@ and (max-device-width : 480px) {
   .masthead {
     padding-top: 8rem !important;
   }
+  #imgSteps {
+    width: 100%;
+  }
 }
