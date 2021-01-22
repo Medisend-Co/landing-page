@@ -10086,7 +10086,7 @@ img::-moz-selection {
   font-family: "Amiko", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.95rem;
   color: #173760;
-  letter-spacing: 0.0625em;
+  /* letter-spacing: 0.0625em; */
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: #548DE1;
@@ -10612,4 +10612,8 @@ and (max-device-width : 480px) {
   #imgSteps {
     width: 100%;
   }
+}
+
+.color-black-txt {
+  color: #333333;
 }
